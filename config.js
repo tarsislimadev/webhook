@@ -1,3 +1,4 @@
 module.exports = {
-    PORT: process.env.PORT || '8000'
+  getPort: () => process.env.PORT || '8000',
+  getBaseURL: () => process.env.BASE_URL,
 }
