@@ -5,5 +5,9 @@
   "scripts": {
     "start": "node ."
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^13.0.0"
+  }
 }
