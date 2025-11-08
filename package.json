@@ -1,10 +1,6 @@
 {
   "name": "webhook",
   "version": "0.1.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ."
-  },
   "license": "MIT",
   "dependencies": {
     "express": "^5.1.0",
