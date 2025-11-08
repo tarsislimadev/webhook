@@ -1,6 +1,6 @@
 services:
   app:
-    image: 'tmvdl/webhook'
+    # image: 'tmvdl/webhook'
     build: '.'
     environment:
       - '.:/app'

@@ -1,7 +1,7 @@
-FROM node:22-alpine
+FROM node:25.1-alpine
 
 WORKDIR /app
 
 COPY . .
 
-CMD npm start
+CMD node index.js
